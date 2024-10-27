@@ -1,0 +1,26 @@
+import java.util.PriorityQueue;
+public class priority {
+    public static void main(String[] args){
+        // Constructor to create object of Priority Queue...
+        PriorityQueue<Integer> Pq = new PriorityQueue<>();
+
+
+        // methods use in priority queue ...
+
+        Pq.offer(1); // altrnative of add...
+        Pq.add(10);
+        Pq.add(5);
+        Pq.add(2);
+        Pq.add(8);
+
+        // int s = Pq.size();
+        // for(int i = 0 ; i < s ; i++)
+        //     System.out.println(Pq.poll());
+
+        System.out.println(Pq.peek()); // peek()...
+        Pq.remove(2); // remove the instance of the object/entity ....
+        System.out.println(Pq.contains(10)); // search function contains() ....
+        //Pq.toArray(); // convert queue into array...
+        Pq.clear(); // Delete all instance of object...
+    }    
+}
