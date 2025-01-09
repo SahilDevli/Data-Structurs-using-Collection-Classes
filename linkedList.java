@@ -6,6 +6,7 @@ public class linkedList {
         LinkedList<Integer> list = new LinkedList<>();
             // LinkedList<Integer> list = new LinkedList<>(size);
         
+            
         // Methods for LinkedList....(all functions of ArrayList + following...)
         list.addFirst(1); // add element from start of list...
         list.addFirst(0);
